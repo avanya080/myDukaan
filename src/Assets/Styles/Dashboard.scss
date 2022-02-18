@@ -1,0 +1,241 @@
+/* header */
+
+@font-face {
+  font-family: opengalano;
+  src: url(../Font/GalanoGrotesqueRegular.otf) format("Truetype");
+}
+@font-face {
+  font-family: opengalano-Bold;
+  src: url(../Font/GalanoGrotesqueAltBold.otf) format("Truetype");
+}
+
+@font-face {
+  font-family: opengalano-Medium;
+  font-weight: 600;
+  src: url(../Font/GalanoGrotesqueMedium.otf) format("Truetype");
+}
+
+body {
+  background-color: #fafafa;
+}
+.Header {
+  background: #146eb4;
+  width: 100%;
+  height: 43vh;
+  overflow: hidden;
+}
+
+.sign-in {
+  font-size: 18px;
+  cursor: pointer;
+  text-align: right !important;
+  float: right;
+  color: #ffffff;
+  flex-grow: 2;
+  font-family: opengalano;
+}
+.header-inline {
+  display: flex;
+  width: 100% !important;
+}
+
+.button-text-transform {
+  text-transform: none !important;
+}
+
+.dashboard-btn {
+  color: #146eb4 !important;
+  background-color: #ffffff !important;
+  margin-left: 2vw !important;
+  font-size: 18px !important;
+  font-family: opengalano-Medium !important;
+}
+
+.header-container {
+  padding: 1vh 12vw;
+  margin-top: 3vh;
+}
+
+//Content
+
+.Content {
+  margin: -25vh 12vw;
+  padding: 10vh 10vw;
+  box-shadow: 0px 2px 8px rgba(26, 24, 30, 0.06) !important;
+  border-radius: 8px !important;
+}
+
+.Content-heading {
+  font-size: 36px;
+  font-weight: 600;
+  color: #1a181e;
+  font-family: "opengalano-Bold";
+}
+
+.Content-subheading {
+  font-size: 20px;
+  color: #4d4d4d;
+  margin-top: 1vh;
+  font-weight: 400;
+  font-family: opengalano;
+}
+
+.Input {
+  color: #4d4d4d;
+  font-weight: 400;
+  margin-top: 7vh;
+  font-family: opengalano-Medium;
+}
+
+.Content-btn {
+  margin-top: 7vh !important;
+  background-color: #146eb4 !important;
+  font-family: opengalano-Medium !important;
+}
+
+.content-text {
+  color: #1a181e;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: opengalano-Medium;
+}
+
+.Content-btn2 {
+  color: #146eb4 !important;
+  text-align: right !important;
+  float: right;
+  font-weight: bold;
+  flex-grow: 2;
+  font-size: 18px;
+  font-family: opengalano-Medium !important;
+}
+
+.content-card {
+  padding: 16px;
+  background-color: #f2f2f2 !important;
+  height: 6vh;
+  cursor: pointer;
+  font-family: opengalano;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4vh;
+}
+.content-footer {
+  margin-top: 7vh !important;
+}
+.main-content {
+  margin-top: 5vh !important;
+}
+
+.input-form {
+  margin-top: 2vh !important;
+  width: 23vw;
+  font-family: opengalano !important;
+}
+// Footer
+
+.footer {
+  background-color: #1a181e;
+  height: 35vh !important;
+  padding: 0 12vw !important;
+  padding-top: 5vh !important;
+}
+
+.footer-text {
+  font-size: 18px;
+  line-height: 26px;
+  margin-top: 2vh;
+  cursor: pointer;
+  color: #ffffff !important;
+  font-family: opengalano;
+}
+
+.footer-subtext {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right !important;
+  float: right;
+  color: #ffffff !important;
+  font-family: opengalano;
+}
+
+.footer-divider {
+  background: #ffffff;
+  opacity: 0.2;
+  margin-top: 5vh !important;
+}
+.footer-inline {
+  display: flex;
+  margin-top: 5vh !important;
+  width: 100%;
+}
+.footer-img {
+  margin-left: 1vw !important;
+  vertical-align: middle;
+}
+.made-in {
+  flex-grow: 2;
+}
+
+//card
+
+.cards {
+  padding: 12vh 12vw;
+  background: #fff;
+}
+.card-header {
+  color: #1a181e;
+  font-weight: 600;
+  font-size: 36px;
+  font-family: opengalano-Bold;
+}
+.card-style {
+  margin-top: 6vh !important;
+}
+
+.card-content-heading {
+  font-size: 20px;
+  font-family: "opengalano-Medium";
+}
+
+.card-content-subheading {
+  font-size: 16px;
+  color: #4d4d4d;
+  line-height: 24px;
+  font-family: opengalano;
+  margin-top: 1vh;
+}
+
+.card-width {
+  max-width: 23vw !important;
+}
+
+//widget
+
+.widget {
+  background: rgba(20, 110, 180, 0.05);
+  margin-top: 40vh;
+}
+
+.widget-margin {
+  padding: 10vh 12vw;
+  text-align: center;
+}
+.widget-heading {
+  font-size: 20px;
+  color: #1a181e;
+  line-height: 28px;
+  font-family: "opengalano-Medium";
+}
+
+.widget-subheading {
+  margin-top: 1vh;
+  font-size: 16px;
+  color: #4d4d4d;
+  line-height: 24px;
+  font-family: opengalano;
+}
